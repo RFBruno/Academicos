@@ -8,3 +8,4 @@ git add *.'extensao' -> adiciona todos os arquivos da extensao em questao
 git add . -> adiciona todos os arquivos do diretorio
 git commit -m "Breve descricao do que foi feito" -> 
 git commit -a -m "descricao" -> pula a etapa de git add
+git diff 
