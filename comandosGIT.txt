@@ -1,0 +1,8 @@
+cd 'nome da pasta' -> para entrar em alguma pasta
+cd.. ->para voltar um nivel
+cd ->endereco da pasta completo
+clear ->limpar tela do bash
+git init ->cria um repositorio na pastas
+git add 'nome do arquivo' -> adiciona o arquivo selecionado
+git add *.'extensao' -> adiciona todos os arquivos da extensao em questao
+git add . -> adiciona todos os arquivos do diretorio
