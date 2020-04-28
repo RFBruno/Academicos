@@ -10,3 +10,12 @@ git commit -m "Breve descricao do que foi feito" ->
 git commit -a -m "descricao" -> pula a etapa de git add
 git diff -> mostra o que foi alterado
 git diff --staged -> mostra o que foi alterado e que esta na staged
+git log 
+git log -p -1
+gitk
+
+
+
+-------------------------------------------
+comando da API do whatsapp para enviar msg
+https://api.whatsapp.com/send?phone=5585994060937&text=Ol%C3%A1,tudo%20bem?
