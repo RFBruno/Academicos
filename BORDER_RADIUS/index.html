@@ -1,0 +1,104 @@
+<html>
+
+<head>
+
+</head>
+<style>
+
+    *{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    body{
+        background-color: rgb(141, 140, 140);
+    }
+    .container{
+        width: 600px;
+        height: 400px;        
+        margin: 0 auto;
+    }
+
+    .painel{
+        width: 500px;
+        height: 350px;
+        border: 1px solid black;
+        margin: 0px  auto;
+        margin-top:45px;
+        background-color: whitesmoke;
+    }
+
+    input{
+        width: 50px;        
+        background-color: black;
+        margin: -10px -8px;
+        color: white;
+        text-align: center;        
+    }
+
+    input[type=number]::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        appearance: none;
+    }
+
+    textarea[name='conteudo-css']{
+        display: inline-block;
+        width: 50%;
+        height: 60%;        
+        margin: 35px 125px;        
+        padding: 10px;
+        border: 1px solid thie;
+        background: black;
+        color: white;
+        font-size: 13pt;
+        resize: none;
+        border: none;
+    }
+
+    .texto-css{
+        
+    }
+
+    #btn{
+        width: 25%;
+        margin-left: 37%;      
+        font-size: 18px;
+        border: 2px solid black;
+        border-radius: 4px;
+    }
+
+    #btn:hover{
+        background-color: gainsboro;
+        cursor: pointer;
+        transition: .4s;
+    }
+
+    #btn:active{
+        background-color: rgb(170, 169, 169);
+    }
+
+</style>
+
+<body>   
+    <div class="container">
+         
+        <input id="bordaSE" type="number" value="0" maxlength="2" size="2" style="float: left;">            
+        <input id="bordaSD" type="number" value="0" max="1000" style="float: right;">
+        
+        <div id="painel-borda" class="painel">
+            
+            
+            <textarea cols="30" rows="5" name="conteudo-css" disabled></textarea>               
+            
+            <button id="btn">Copiar</button>
+        </div>
+        
+        <input id="bordaIE" type="number" value="0" max="1000" style="float: left; ">
+        <input id="bordaID" type="number" value="0" max="1000" style="float: right;">
+    </div>
+
+    <script src="border-radius.js"></script>
+</body>
+
+</html>
