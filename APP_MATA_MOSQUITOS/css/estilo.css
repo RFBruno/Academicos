@@ -1,3 +1,9 @@
+@media (min-width: 1280px) {
+	body{		
+		background-size: cover;
+	}
+}
+
 html{
 	cursor: url(../img/mata_mosquito.png) 30 30, auto;
 }
